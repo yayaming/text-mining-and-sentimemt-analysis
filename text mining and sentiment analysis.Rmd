@@ -17,7 +17,7 @@ People passed on their thought and emotion from generation to generation through
 In my project, there are the English songs in 1980 to 2023. I attempted to analyze the unique characteristics of song lyrics. First, I examined some descriptive statistics about the database, then took a closer look at the lyrics thoughts the decades or different music type, also applied sentiment analysis to them. Next, tried to examine closer the importance of words, by the decades, the types, or specific artists. Finally, performed topic modeling using Latent Dirichlet Allocation (LDA).
 
 Library the functions I need:
-
+```{r}
 library(readr)
 library(tm)
 library(SnowballC)
@@ -41,7 +41,7 @@ library(textdata)
 library(gridExtra)
 library(topicmodels)
 library(purrr)
-
+```
 
 Read the data:
 ```{r}
